@@ -12,4 +12,5 @@ export class AppComponent {
   lastName = "Bhanagare";
 
   totalMarks = '120';
+  myClass = "DB"
 }
