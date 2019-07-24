@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Welcome to {{ title }}!</h1>
+  <p> Getting total marks in exam {{ totalMarks }} </p>
+  <p> addition of total marks is {{ 120 + 120 }} </p>
+  <p> The title is Upper case format is {{ title.toUpperCase() }}</p>
+
+  <!-- Interpolation -->
+  <input type="text" value={{firstName}} id="firstName"/>
+  
+  <!-- property Binding -->
+  <input type="text" [value]="lastName" id="lastName"/>
+</div>
+
+<test-component></test-component>
+<app-test></app-test>
